@@ -1,0 +1,9 @@
+export { default as html5 } from "./html5.svg";
+export { default as MaterialUI } from "./MaterialUI.svg";
+export { default as MongoDB } from "./MongoDB.svg";
+export { default as NodeJS } from "./NodeJS.svg";
+export { default as react } from "./React.svg";
+export { default as ReduxSaga } from "./ReduxSaga.svg";
+export { default as Redux } from "./Redux.svg";
+export { default as SASS } from "./SASS.svg";
+export { default as StyledComponents } from "./StyledComponents.svg";
