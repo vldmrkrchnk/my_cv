@@ -8,10 +8,9 @@ const Bio = () => {
       <p id="title">My name is Volodymyr Kyrychenko</p>
       <p>
         I am a JavaScript software developer currently based in Ukraine. I
-        graduated from
+        graduated from{" "}
         <a href="http://knmu.kharkov.ua/" target="_blank" rel="noreferrer">
-          {" "}
-          Kharkiv National Medical University{" "}
+          Kharkiv National Medical University
         </a>{" "}
         where I studied neurology and study to this day. I have 3 years of
         experience in commercial development in{" "}
@@ -62,7 +61,8 @@ const Bio = () => {
           YouTube
         </a>{" "}
         channel where I managed to record 2 videos due to lack of time. As a
-        student. Sorry I didn't have time to write the subtitles, the narration
+        student.
+        {/* Sorry I didn't have time to write the subtitles, the narration
         is on{" "}
         <a
           href="https://www.bbc.com/news/world-60525350"
@@ -71,7 +71,7 @@ const Bio = () => {
         >
           Russia
         </a>
-        n`
+        n` */}
       </p>
     </div>
   );

@@ -30,7 +30,8 @@ a {
     position: relative;
     font-weight: 400;
     animation: animateBg 20s linear infinite;
-    background-color:linear-gradient(to right,#00ff22,#c19b4a,#cee48b,#aace3c,#55ab87,#64b3d9,#208ea2,#498ada,#5b73df,#897ed3,#cf5c5c,#c19b4a); 
+    // background-color:linear-gradient(to right,#00ff22,#c19b4a,#cee48b,#aace3c,#55ab87,#64b3d9,#208ea2,#498ada,#5b73df,#897ed3,#cf5c5c,#c19b4a); 
+    background-color:linear-gradient(to right,#6a6a6a,#908d88,#4d4d4c,#868685,#4f5150,#9fa2a3,#a0a1a1,#b1b1b2,#4a4a4a,#8e8e90,#575454,#9f9e9c); 
 
 }
 
@@ -52,6 +53,11 @@ a:after {
     transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
     opacity: 0.2;
     background-image:linear-gradient(to right,#00ff22,#c19b4a,#cee48b,#aace3c,#55ab87,#64b3d9,#208ea2,#498ada,#5b73df,#897ed3,#cf5c5c,#c19b4a); 
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+
+
 }
 
 a:hover:after {
