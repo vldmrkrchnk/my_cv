@@ -18,7 +18,7 @@ const Bio = () => {
           React
         </a>
         . My CV{" "}
-        <a href="./documents/CV_VLADIMIR_KIRICHENKO.pdf" download>
+        <a href="./documents/CV_VOLODYMYR_KIRICHENKO.pdf" download>
           here
         </a>
         .`
