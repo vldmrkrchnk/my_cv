@@ -24,8 +24,6 @@
 
 .App-wrapper {
   animation: animateBg 10s linear infinite;
-  background-image: linear-gradient(0deg,#cf5c5c,#c19b4a,#def2a0,#c6ee4a,#42eca6,#64b3d9,#208ea2,#498ada,#5b73df,#897ed3,#cf5c5c,#c19b4a);
-  background-size: 100% 1100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -33,6 +31,13 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  animation: animateBg 10s linear infinite;
+  
+  background-image: linear-gradient(0deg,#552525,#5f4c24,#5f6745,#687e26,#26825c,#335c6f,#104650,#203b5d,#2b376b,#3f3a61,#552525,#5f4c24);
+  background-size: 100% 1100%;
+  filter:grayscale(30%);
+  height: 100vh;
+  width: 100vw;
 }
 
 

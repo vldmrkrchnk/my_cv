@@ -8,6 +8,7 @@ import ReduxSaga from "./svg/ReduxSaga.svg";
 import Redux from "./svg/Redux.svg";
 import SASS from "./svg/SASS.svg";
 import StyledComponents from "./svg/StyledComponents.svg";
+import Typescript from "./svg/Typescript.svg";
 
 const Carousel = () => {
   return (
@@ -37,6 +38,9 @@ const Carousel = () => {
           </div>
           <div class="slide">
             <img class="svg" src={SASS} height="100" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img class="svg" src={Typescript} height="100" width="250" alt="" />
           </div>
           <div class="slide">
             <img
@@ -70,6 +74,9 @@ const Carousel = () => {
           </div>
           <div class="slide">
             <img class="svg" src={SASS} height="100" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img class="svg" src={Typescript} height="100" width="250" alt="" />
           </div>
           <div class="slide">
             <img
