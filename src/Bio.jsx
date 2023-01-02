@@ -6,7 +6,7 @@ const Bio = () => {
       <h1>Hello.</h1>
       <p id="title">My name is Vladimir Kirichenko</p>
       <p>
-        I am an JavaScript software developer currently based in Ukraine. I
+        I am a JavaScript software developer currently based in Ukraine. I
         graduated from
         <a href="http://knmu.kharkov.ua/" target="_blank" rel="noreferrer">
           {" "}
