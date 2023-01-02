@@ -17,9 +17,12 @@ const Bio = () => {
         <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
           React
         </a>
-        .
+        . My CV{" "}
+        <a href="./documents/CV_VLADIMIR_KIRICHENKO.pdf" download>
+          here
+        </a>
+        .`
         {/* You can see some of my test assignments on  <a href="https://github.com/vldmrkrchnk" target="_blank">GitHub</a>. */}
-        `
       </p>
       <p>
         You can follow me on{" "}
