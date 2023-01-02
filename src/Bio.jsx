@@ -4,7 +4,7 @@ const Bio = () => {
   return (
     <div class="bio-wrapper">
       <h1>Hello.</h1>
-      <p id="title">My name is Vladimir Kirichenko</p>
+      <p id="title">My name is Volodymyr Kirichenko</p>
       <p>
         I am a JavaScript software developer currently based in Ukraine. I
         graduated from
