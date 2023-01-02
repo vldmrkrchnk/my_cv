@@ -1,10 +1,11 @@
 import "./Bio.scss";
+import CV_VOLODYMYR_KYRYCHENKO from "./documents/CV_VOLODYMYR_KYRYCHENKO.pdf";
 
 const Bio = () => {
   return (
     <div class="bio-wrapper">
       <h1>Hello.</h1>
-      <p id="title">My name is Volodymyr Kirichenko</p>
+      <p id="title">My name is Volodymyr Kyrychenko</p>
       <p>
         I am a JavaScript software developer currently based in Ukraine. I
         graduated from
@@ -18,7 +19,10 @@ const Bio = () => {
           React
         </a>
         . My CV{" "}
-        <a href="./documents/CV_VOLODYMYR_KIRICHENKO.pdf" download>
+        <a
+          href={CV_VOLODYMYR_KYRYCHENKO}
+          download="CV_VOLODYMYR_KYRYCHENKO.pdf"
+        >
           here
         </a>
         .`
