@@ -1,5 +1,5 @@
 import "./Bio.scss";
-import CV_VOLODYMYR_KYRYCHENKO from "./documents/CV_VOLODYMYR_KYRYCHENKO.pdf";
+import VOLODYMYR_KYRYCHENKO_CV from "./documents/VOLODYMYR_KYRYCHENKO_CV.pdf";
 
 const Bio = () => {
   return (
@@ -19,8 +19,8 @@ const Bio = () => {
         </a>
         . My CV{" "}
         <a
-          href={CV_VOLODYMYR_KYRYCHENKO}
-          download="CV_VOLODYMYR_KYRYCHENKO.pdf"
+          href={VOLODYMYR_KYRYCHENKO_CV}
+          download="VOLODYMYR_KYRYCHENKO_CV.pdf"
         >
           here
         </a>
